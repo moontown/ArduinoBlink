@@ -1,7 +1,7 @@
 # ArduinoBlink
 Easy Arduino blink project
 
-*****I don't take responsibility for anything in this project that may cause damage to your hardware or similar*****
+***I don't take responsibility for anything in this project that may cause damage to your hardware or similar***
 
 This little tutorial will help you out with the well recognized BLINK-project with an Arduino Uno
 For code and more information, please read the attached files.
