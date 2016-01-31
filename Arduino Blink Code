@@ -1,0 +1,15 @@
+//This is the code for the Arduino Blink Project
+//Software used: Arduino 1.6.6
+
+void setup()     //The code in this section will only be run once, just when the Arduino starts.
+{
+pinMode(13, OUTPUT);     //Here we tell the Arduino which PIN we are going to use and that we will use it for OUTPUT.
+}
+
+void loop()     // This section is for your main code, this code will run repeatedly, again and again.
+{
+digitalWrite(13, HIGH);     // Now we turn on the LED by telling the Arduino to set the PIN to HIGH (ON)
+delay(500);     // The Arduino will now let the LED on for about a half second.
+digitalWrite(13, LOW);     // LOW means that the Arduino will turn of the LED.
+delay(500);     // The Arduino will now let the LED off for about a half second and then repeat the loop once again.
+}
